@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/portfolio.css">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/HTML/about.html">About</a></li>
+            <li><a href="/HTML/education.html">Education</a></li>
+            <li class="active"><a href="#">Portfolio</a></li>
+            <li><a href="/HTML/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>My portfolio</h2>
+            <h3>A few of my projects</h3>
+
+            <div class="project-container">
+                <div class="project-card">
+                    <img class="project-image" src="/Image/1.png" alt="Project One Image" />
+                    <h5>Project One</h5>
+                    <p class="subtext">This is a bank application I made.</p>
+                    <div class="wrapper">
+                        <a href="#modalbox1">Click here for more info</a>
+                    </div>
+                    <div id="modalbox1" class="modal">
+                        <div class="modalcontent1">
+                            <h3>Project One</h3>
+                            <p>The final project of the first course.</p>
+                            <a href="#" class="modalclose">&times;</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="/Image/2.png" alt="Project Two Image" />
+                    <h5>Project Two</h5>
+                    <p class="subtext">This is a calculator application I made.</p>
+                    <div class="wrapper">
+                        <a href="#modalbox2">Click here for more info</a>
+                    </div>
+                    <div id="modalbox2" class="modal">
+                        <div class="modalcontent2">
+                            <h3>Project Two</h3>
+                            <p>The last project of the system testing course.</p>
+                            <a href="#" class="modalclose">&times;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img class="project-image" src="/Image/3.png" alt="Project Three Image" />
+                    <h5>Project Three</h5>
+                    <p class="subtext">This is an application that simulates a school IT-system.</p>
+                    <div class="wrapper">
+                        <a href="#modalbox3">Click here for more info</a>
+                    </div>
+                    <div id="modalbox3" class="modal">
+                        <div class="modalcontent3">
+                            <h3>Project Three</h3>
+                            <p>The final project of the database course.</p>
+                            <a href="#" class="modalclose">&times;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>
